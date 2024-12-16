@@ -1,7 +1,7 @@
 
 
 
-const backendDomin = "http://localhost:7203"
+const backendDomin = "https://demo-pharmacy.onrender.com"
 
 const SummaryApi = {
     signUP :{
