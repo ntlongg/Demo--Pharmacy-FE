@@ -21,7 +21,6 @@ function App(){
         try {
             const dataReponse = await fetch(SummaryApi.current_user.url, {
                 method: SummaryApi.current_user.method,
-                credentials: "include"
             });
     
             const dataApi = await dataReponse.json();
@@ -39,7 +38,6 @@ function App(){
         try {
             const dataResponse = await fetch(SummaryApi.addToCartProductCount.url, {
                 method: SummaryApi.addToCartProductCount.method,
-                credentials: 'include'
             });
     
             const dataApi = await dataResponse.json();
